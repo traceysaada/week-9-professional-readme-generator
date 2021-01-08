@@ -36,9 +36,20 @@ const questions = [
   },
   {
     type: "input",
+    name: "email",
+    message: "please supply your email address",
+  },
+  {
+    type: "input",
     name: "github",
     message: "please supply github user address",
   },
+  {
+    type: "list",
+    name: "license",
+    message: "What license would you like to add?",
+    choices: ['MIT', 'Apache']
+  }
 ];
 
 
@@ -47,6 +58,7 @@ function writeToFile(newFileTitle, newFileContent) {
   var newFileDirectory = path.join(process.cwd(), newFileTitle); 
 
   fs.writeFileSync(newFileDirectory, generateMarkdown(newFileContent))
+  
   };
 
 
