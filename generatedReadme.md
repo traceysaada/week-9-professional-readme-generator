@@ -5,7 +5,7 @@
 
 ## Description
 
-Create a ReadMe for an application
+Create a Readme for an application
 
 ### Table of Contents
 
@@ -13,19 +13,19 @@ Create a ReadMe for an application
 
 ## Installation Details
 
-How to install: to answer all questions to generate a new ReadMe
+How to install: to answer all questions to generate a new readme
 
 ## Usage Details 
 
-How to use: It will create a good ReadMe for the user to use
+How to use: it will create a good readme for the user to use
 
 ## Contributing 
 
-How does this application Function: By using node & npm
+How does this application Function: by using node & npm
 
 ## Test Details
 
-How is this application used: By answering all the prompted questions
+How is this application used: by answering all the prompted questions
 
 *Questions
 
