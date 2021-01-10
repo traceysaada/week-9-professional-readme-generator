@@ -23,7 +23,7 @@ How to use: ${data.usage}
 
 ## Contributing 
 
-How does this application Function: ${data.contrbuting}
+How does this application Function: ${data.contributing}
 
 ## Test Details
 
@@ -33,9 +33,9 @@ How is this application used: ${data.test}
 
 ## Contact details
 
-what is the Email contact details: ${data.email}
+Contact me via [Email](mailto:${data.email})
 
-what is your Github link: ${data.github}
+Github link: ${data.github}
 
 ## License
 
