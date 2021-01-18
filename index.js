@@ -65,7 +65,7 @@ function writeToFile(newFileTitle, newFileContent) {
   function init() {
   inquirer.prompt(questions).then((answers) => {
     console.log(answers);
-    writeToFile("generatedReadme.md", answers);
+    writeToFile("Readme.md", answers);
   });
 };
 
